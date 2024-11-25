@@ -1,0 +1,13 @@
+set_={1, 2, 3, 4, 5, 4, 3, 2, 1, 'string', (1,2,3)} # множества хранят элементы с уникальным значением (т.е. без похожих)
+print(set_)
+list_=[1, 2, 3, 4, 5, 5, 44, 3, 2,]
+print(set(list_))
+list_=set(list_)
+print(list_)
+#print(list_[0]) # будет выдавать ошибку (не можем обратится к множествам по индексу)
+print(list_.discard(1))
+print(list_)
+print(list_.remove(3))
+print(list_)
+print(list_.add(88))
+print(list_)
